@@ -1,7 +1,7 @@
 ## Screenshots
 
 **1. Home Page**
-![Home Page](Screenshots/home_page.png)
+![Home Page](Screenshots/error_20251209_151310.png)
 
 **2. Cart Page**
 ![Cart Page](Screenshots/cart_page.png)
