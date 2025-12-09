@@ -7,7 +7,7 @@
 ![Cart Page](Screenshots/error_20251209_151310.png)
 
 **3. Order Success Page**
-![Order Success](Screenshots/order .jpg)
+![Order Success](Screenshots/order.jpg)
 
 1️⃣ # Folder Structure:
 
