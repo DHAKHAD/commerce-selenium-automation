@@ -1,10 +1,10 @@
 ## Screenshots
 
 **1. Home Page**
-![Home Page](Screenshots/error_20251209_151310.png)
+![Home Page](Screenshots/error_20251209_151022.png)
 
 **2. Cart Page**
-![Cart Page](Screenshots/cart_page.png)
+![Cart Page](Screenshots/error_20251209_151310.png)
 
 **3. Order Success Page**
 ![Order Success](Screenshots/order_success.png)
