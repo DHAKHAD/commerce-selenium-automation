@@ -1,3 +1,4 @@
+HEAD
 1️⃣ Folder Structure:
 
 # Note: This is a structured overview of the folder and files for your Selenium Automation project.
@@ -232,3 +233,9 @@ All critical actions like guest checkout, payment, and order confirmation are au
 # - Structured project with dedicated folders: Pages, Reports, Screenshots, and Drivers for maintainability.
 # - Built reusable methods and utilities for WebDriver setup, logging, and form interactions.
 ````
+
+=======
+
+# E-commerce-selenium-automation
+
+Python, Selenium, Automation, Testing, QA, SDET, Page Object Model, HTMLTestRunner, Web Automation 167fce9f178f957d451b8455ba1c67d119e4d1c7
