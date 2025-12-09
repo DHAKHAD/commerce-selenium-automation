@@ -1,4 +1,14 @@
-HEAD
+## Screenshots
+
+**1. Home Page**
+![Home Page](Screenshots/home_page.png)
+
+**2. Cart Page**
+![Cart Page](Screenshots/cart_page.png)
+
+**3. Order Success Page**
+![Order Success](Screenshots/order_success.png)
+
 1️⃣ Folder Structure:
 
 # Note: This is a structured overview of the folder and files for your Selenium Automation project.
