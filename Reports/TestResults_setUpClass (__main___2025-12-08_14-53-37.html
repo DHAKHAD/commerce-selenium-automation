@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2025-12-08 14:53:37</p>
+                <p class='attribute'><strong>Duration: </strong>0 ms</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>setUpClass (__main__</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">EcomTest)</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">ValueError: Timeout value connect was <object object at 0x0000020F13A98A10>, but it must be an int, float or None.</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\sunil\Desktop\eCommerce-Website-Automation-Selenium-main\Tests\ecom_project.py", line 20, in setUpClass
+    cls.driver = webdriver.Chrome("drivers/chromedriver.exe")
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\poolmanager.py", line 446, in urlopen
+    conn = self.connection_from_host(u.host, port=u.port, scheme=u.scheme)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\poolmanager.py", line 317, in connection_from_host
+    return self.connection_from_context(request_context)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\poolmanager.py", line 342, in connection_from_context
+    return self.connection_from_pool_key(pool_key, request_context=request_context)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\poolmanager.py", line 365, in connection_from_pool_key
+    pool = self._new_pool(scheme, host, port, request_context=request_context)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\poolmanager.py", line 279, in _new_pool
+    return pool_cls(host, port, **request_context)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 193, in __init__
+    timeout = Timeout.from_float(timeout)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\timeout.py", line 186, in from_float
+    return Timeout(read=timeout, connect=timeout)
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\timeout.py", line 115, in __init__
+    self._connect = self._validate_timeout(connect, "connect")
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\timeout.py", line 152, in _validate_timeout
+    raise ValueError(
+ValueError: Timeout value connect was <object object at 0x0000020F13A98A10>, but it must be an int, float or None.
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 0 ms
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

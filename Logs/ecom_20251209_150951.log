@@ -1,0 +1,56 @@
+2025-12-09 15:09:51,622 - INFO - ====== WebDriver manager ======
+2025-12-09 15:09:52,748 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 15:09:53,229 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 15:09:53,603 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 15:09:54,436 - INFO - WebDriver version 142.0.7444.175 selected
+2025-12-09 15:09:54,441 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-12-09 15:09:54,441 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-12-09 15:09:54,811 - INFO - Driver downloading response is 200
+2025-12-09 15:09:55,371 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 15:09:55,871 - INFO - Driver has been saved in cache [C:\Users\sunil\.wdm\drivers\chromedriver\win64\142.0.7444.175]
+2025-12-09 15:09:58,102 - INFO - Browser chrome launched
+2025-12-09 15:09:59,226 - INFO - Opened e-commerce website
+2025-12-09 15:09:59,226 - INFO - HomePage initialized
+2025-12-09 15:09:59,635 - INFO - Clicked on Phones & PDAs option
+2025-12-09 15:09:59,635 - INFO - PhonePDAPage initialized
+2025-12-09 15:10:00,042 - INFO - Clicked on iPhone option
+2025-12-09 15:10:00,042 - INFO - iPhonePage initialized
+2025-12-09 15:10:00,179 - INFO - Clicked on iPhone image
+2025-12-09 15:10:01,245 - INFO - Clicked Next arrow in slideshow
+2025-12-09 15:10:01,804 - INFO - Clicked Next arrow in slideshow
+2025-12-09 15:10:02,364 - INFO - Clicked Next arrow in slideshow
+2025-12-09 15:10:02,915 - INFO - Clicked Next arrow in slideshow
+2025-12-09 15:10:03,485 - INFO - Clicked Next arrow in slideshow
+2025-12-09 15:10:04,049 - INFO - Closed slideshow
+2025-12-09 15:10:04,180 - INFO - Entered quantity: 2
+2025-12-09 15:10:04,290 - INFO - Clicked Add to Cart for iPhone
+2025-12-09 15:10:04,602 - INFO - Hovered over Laptop & Notebooks menu
+2025-12-09 15:10:05,917 - INFO - Hovered over Laptop & Notebooks menu
+2025-12-09 15:10:22,112 - ERROR - Error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xde4103
+	0xde4144
+	0xbee71d
+	0xc3a03d
+	0xc3a41b
+	0xc817f2
+	0xc5c954
+	0xc7ee17
+	0xc5c706
+	0xc2da30
+	0xc2ed54
+	0x10557b4
+	0x105098a
+	0xe0c392
+	0xdfc4c8
+	0xe0324d
+	0xdec478
+	0xdec63c
+	0xdd67ca
+	0x760b5d49
+	0x7736d6cb
+	0x7736d651
+
+2025-12-09 15:10:22,261 - INFO - Screenshot saved: Screenshots\error_20251209_151022.png
+2025-12-09 15:10:24,561 - INFO - Test Completed

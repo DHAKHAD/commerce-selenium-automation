@@ -1,0 +1,46 @@
+2025-12-09 15:20:23,400 - INFO - ====== WebDriver manager ======
+2025-12-09 15:20:24,643 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 15:20:25,211 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 15:20:25,618 - INFO - Driver [C:\Users\sunil\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-09 15:20:26,862 - INFO - Browser chrome launched
+2025-12-09 15:20:27,633 - INFO - Opened e-commerce website
+2025-12-09 15:20:27,633 - INFO - HomePage initialized
+2025-12-09 15:20:27,952 - INFO - Clicked on Phones & PDAs option
+2025-12-09 15:20:27,953 - INFO - PhonePDAPage initialized
+2025-12-09 15:20:28,359 - INFO - Clicked on iPhone option
+2025-12-09 15:20:28,359 - INFO - iPhonePage initialized
+2025-12-09 15:20:28,521 - INFO - Clicked on iPhone image
+2025-12-09 15:20:29,584 - INFO - Clicked Next arrow in slideshow
+2025-12-09 15:20:46,207 - INFO - Next arrow not visible
+2025-12-09 15:21:02,765 - INFO - Next arrow not visible
+2025-12-09 15:21:19,385 - INFO - Next arrow not visible
+2025-12-09 15:21:36,039 - INFO - Next arrow not visible
+2025-12-09 15:21:36,621 - INFO - Closed slideshow
+2025-12-09 15:21:52,752 - ERROR - Error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xde4103
+	0xde4144
+	0xbee71d
+	0xc3a03d
+	0xc3a41b
+	0xc817f2
+	0xc5c954
+	0xc7ee17
+	0xc5c706
+	0xc2da30
+	0xc2ed54
+	0x10557b4
+	0x105098a
+	0xe0c392
+	0xdfc4c8
+	0xe0324d
+	0xdec478
+	0xdec63c
+	0xdd67ca
+	0x760b5d49
+	0x7736d6cb
+	0x7736d651
+
+2025-12-09 15:21:52,881 - INFO - Screenshot saved: Screenshots\error_20251209_152152.png
+2025-12-09 15:21:55,222 - INFO - Test Completed

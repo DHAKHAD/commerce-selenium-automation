@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ecommerce Automation Test Report</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Ecommerce Automation Test Report</h2>
+                <p class='attribute'><strong>Start Time: </strong>2025-12-09 15:12:42</p>
+                <p class='attribute'><strong>Duration: </strong>23.76 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.EcomTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_ecommerce_flow</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xde4103
+	0xde4144
+	0xbee71d
+	0xc3a03d
+	0xc3a41b
+	0xc817f2
+	0xc5c954
+	0xc7ee17
+	0xc5c706
+	0xc2da30
+	0xc2ed54
+	0x10557b4
+	0x105098a
+	0xe0c392
+	0xdfc4c8
+	0xe0324d
+	0xdec478
+	0xdec63c
+	0xdd67ca
+	0x760b5d49
+	0x7736d6cb
+	0x7736d651
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\sunil\Desktop\eCommerce-Website-Automation-Selenium-main\Tests\ecom_project.py", line 98, in test_ecommerce_flow
+    home.click_show_all_laptop_notebook_option()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sunil\Desktop\eCommerce-Website-Automation-Selenium-main\Pages\HomePage.py", line 31, in click_show_all_laptop_notebook_option
+    self.wait.until(EC.element_to_be_clickable((By.XPATH, self.show_all_laptop_notebook_xpath))).click()
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sunil\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\support\wait.py", line 122, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xde4103
+	0xde4144
+	0xbee71d
+	0xc3a03d
+	0xc3a41b
+	0xc817f2
+	0xc5c954
+	0xc7ee17
+	0xc5c706
+	0xc2da30
+	0xc2ed54
+	0x10557b4
+	0x105098a
+	0xe0c392
+	0xdfc4c8
+	0xe0324d
+	0xdec478
+	0xdec63c
+	0xdd67ca
+	0x760b5d49
+	0x7736d6cb
+	0x7736d651
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 23.76 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
