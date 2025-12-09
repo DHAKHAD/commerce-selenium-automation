@@ -21,8 +21,8 @@ from Pages.LaptopPage import LaptopPage
 from Pages.HPpage import HPpage
 from Pages.CheckoutPage import CheckoutPage
 from Pages.SuccessPage import SuccessPage
+
 import sys
-import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Setup logging
@@ -66,9 +66,10 @@ class EcomTest(unittest.TestCase):
         wait = WebDriverWait(driver, 15)
 
         # Read test data
-        with open("data.csv", newline="") as csvfile:
+        csv_path = os.path.join("data", "data.csv")  # Updated path
+        with open(csv_path, newline="") as csvfile:
             reader = csv.DictReader(csvfile)
-            data = next(reader)  # Only one row for simplicity
+            data = next(reader)  # Only first row, you can loop for multiple rows
 
         try:
             driver.get("http://tutorialsninja.com/demo/")

@@ -1,2 +1,3 @@
 fname,lname,email,telephone,address,city,postcode,country,state,iphone_qty,hp_date,hp_month_year
 Sunil,Nagar,sunil@example.com,9999999999,123 ABC,Kota,324001,India,Goa,2,31,December 2022
+Ravi,Kumar,ravi@example.com,8888888888,456 XYZ,Jaipur,302001,India,Rajasthan,1,25,December 2022

@@ -1,0 +1,54 @@
+2025-12-09 16:27:34,876 - INFO - ====== WebDriver manager ======
+2025-12-09 16:27:35,989 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 16:27:36,588 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 16:27:37,004 - INFO - Driver [C:\Users\sunil\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-09 16:27:39,620 - INFO - Browser chrome launched
+2025-12-09 16:27:40,586 - INFO - Opened e-commerce website
+2025-12-09 16:27:40,587 - INFO - HomePage initialized
+2025-12-09 16:27:41,041 - INFO - Clicked on Phones & PDAs option
+2025-12-09 16:27:41,043 - INFO - PhonePDAPage initialized
+2025-12-09 16:27:41,545 - INFO - Clicked on iPhone option
+2025-12-09 16:27:41,545 - INFO - iPhonePage initialized
+2025-12-09 16:27:41,712 - INFO - Clicked on iPhone image
+2025-12-09 16:27:42,792 - INFO - Clicked Next arrow in slideshow
+2025-12-09 16:27:43,371 - INFO - Clicked Next arrow in slideshow
+2025-12-09 16:27:43,919 - INFO - Clicked Next arrow in slideshow
+2025-12-09 16:27:44,465 - INFO - Clicked Next arrow in slideshow
+2025-12-09 16:27:45,146 - INFO - Clicked Next arrow in slideshow
+2025-12-09 16:27:45,768 - INFO - Closed slideshow
+2025-12-09 16:27:46,100 - INFO - Entered quantity: 2
+2025-12-09 16:27:46,234 - INFO - Clicked Add to Cart for iPhone
+2025-12-09 16:27:46,538 - INFO - Hovered over Laptop & Notebooks menu
+2025-12-09 16:28:05,016 - WARNING - Attempt 1 failed, retrying...
+2025-12-09 16:28:06,031 - WARNING - Attempt 2 failed, retrying...
+2025-12-09 16:28:07,044 - WARNING - Attempt 3 failed, retrying...
+2025-12-09 16:28:08,044 - INFO - LaptopPage initialized
+2025-12-09 16:28:13,063 - ERROR - Error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='HP LP3065']"}
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xb94103
+	0xb94144
+	0x99e71d
+	0x9ea03d
+	0x9ea41b
+	0xa317f2
+	0xa0c954
+	0xa2ee17
+	0xa0c706
+	0x9dda30
+	0x9ded54
+	0xe057b4
+	0xe0098a
+	0xbbc392
+	0xbac4c8
+	0xbb324d
+	0xb9c478
+	0xb9c63c
+	0xb867ca
+	0x760b5d49
+	0x7736d6cb
+	0x7736d651
+
+2025-12-09 16:28:13,189 - INFO - Screenshot saved: Screenshots\error_20251209_162813.png
+2025-12-09 16:28:15,454 - INFO - Test Completed

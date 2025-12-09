@@ -1,0 +1,19 @@
+2025-12-09 19:47:34,555 - INFO - ====== WebDriver manager ======
+2025-12-09 19:47:36,068 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 19:47:45,327 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 19:47:47,298 - INFO - Driver [C:\Users\sunil\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-09 19:47:49,908 - INFO - Browser chrome launched
+2025-12-09 19:47:50,877 - INFO - Opened e-commerce website
+2025-12-09 19:47:50,877 - INFO - HomePage initialized
+2025-12-09 19:47:51,248 - INFO - Clicked on Phones & PDAs option
+2025-12-09 19:47:51,249 - INFO - PhonePDAPage initialized
+2025-12-09 19:47:51,664 - INFO - Clicked on iPhone option
+2025-12-09 19:47:51,665 - INFO - iPhonePage initialized
+2025-12-09 19:47:51,839 - INFO - Clicked on iPhone image
+2025-12-09 19:47:52,891 - INFO - Clicked Next arrow in slideshow
+2025-12-09 19:48:09,556 - INFO - Next arrow not visible
+2025-12-09 19:48:26,189 - INFO - Next arrow not visible
+2025-12-09 19:48:42,829 - INFO - Next arrow not visible
+2025-12-09 19:48:59,378 - INFO - Next arrow not visible
+2025-12-09 19:49:03,278 - INFO - Close button not visible
+2025-12-09 19:49:07,333 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=52827): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/eb88010c3726b99fa735bc1519edf5b9/element
